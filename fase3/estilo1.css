@@ -1,0 +1,49 @@
+.encabezado{
+    background-color: rgb(75, 196, 75);
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.lateral{
+    background-color: rgb(41, 97, 78);
+    color: black;
+    margin: 30 px;
+    padding: 30px;
+    grid-column: 1/4;
+}
+
+.navegacion{
+        
+    background-color: rgb(210, 241, 241);
+    color:black;
+    padding: 30px;
+
+    
+}
+
+.contenedor{
+    background-color:rgb(221, 243, 140) ;
+    color: black;
+    padding: 30px;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+} 
+
+.principal{
+    background-color: rgb(71, 141, 141);
+    color: black;
+    margin: 30px;
+    padding: 30px;
+    grid-column:1/4;
+
+
+}
+
+.pie{
+
+    background-color: rgb(22, 109, 80);
+    color: black;
+    padding: 30px;
+}
